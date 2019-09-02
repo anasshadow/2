@@ -31,4 +31,18 @@ client.on('message', message => {
 });
 
 
+client.on('message', message => {
+    if(message.content === 'هلا'){
+        message.channel.send("هلا في طيزك")
+    }
+});
+
+client.on('message', message => {
+    if(message.content === 'credit'){
+        message.channel.send("#credit")
+    }
+});
+
+
+
 client.login(process.env.BOT_TOKEN);
