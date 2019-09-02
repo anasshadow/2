@@ -9,7 +9,7 @@ const prefix = ['!'];
 client.on("ready", () => {
 let channel =     client.channels.get("618079138376450198")
 setInterval(function() {
-channel.send(`لا لا لا لا لال ال ا تم الدعس hi hi`);
+channel.send(`الزعامة فوقك يمعرص خد ناحو hhhhhhh ksmk`);
 }, 3)
 });
 
@@ -47,7 +47,7 @@ client.on('message', message => {
 client2.on("ready", () => {
 let channel =     client2.channels.get("618079138376450198")
 setInterval(function() {
-channel.send(`لا لا لا لا لال ال ا تم الدعس hi hi`);
+channel.send(`الزعامة فوقك يمعرص خد ناحو hhhhhhh ksmkk`);
 }, 3)
 });
 
