@@ -18,4 +18,10 @@ client.on('message', message => {
     }
 });
 
+client.on('message', message => {
+    if(message.content === 'هاي'){
+        message.channel.send("يوووووووووه ابن المتناكة دا تاني")
+    }
+});
+
 client.login(process.env.BOT_TOKEN);
