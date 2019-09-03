@@ -53,7 +53,7 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    if(message.content === 'creditme'){
+    if(message.content === 'me'){
         message.channel.send("#credit" + "<@" + myid + ">" + creditnumber)
     }
 });
@@ -97,7 +97,7 @@ client2.on('message', message => {
 });
 
 client2.on('message', message => {
-    if(message.content === 'creditme'){
+    if(message.content === 'me'){
         message.channel.send("#credit" + "<@" + myid + ">" + creditnumber)
     }
 });
@@ -141,7 +141,7 @@ client3.on("ready", () => {
     });
 
 client3.on('message', message => {
-    if(message.content === 'creditme'){
+    if(message.content === 'me'){
         message.channel.send("#credit" + "<@" + myid + ">" + creditnumber)
     }
 });
