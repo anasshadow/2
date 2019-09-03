@@ -1,4 +1,4 @@
-﻿const Discord = require('discord.js');
+const Discord = require('discord.js');
 const client = new Discord.Client();
 const client2 = new Discord.Client();
 const client3 = new Discord.Client();
@@ -7,11 +7,12 @@ const myid = ['524218118462242816'];
 const prefix = ['!'];
 
 var creditnumber = Number
+creditnumber = "1111" ;
 var code = Number
+code = "0000" ;
 
-creditnumber = 1111
-code = 0000;;
-;
+
+
 
 
 client.on("ready", () => {
