@@ -5,9 +5,6 @@ const client3 = new Discord.Client();
 const myid = ['524218118462242816'];
 const prefix = ['!'];
 const creditnumber = ['1111'];
-const code = ['0000'];
-
-
 
 
 
@@ -149,7 +146,6 @@ client3.on("ready", () => {
     client3.on('message', message => {
         if(message.content === 'creditme'){
             message.channel.send("#credit" + "<@" + myid + ">" + creditnumber)
-            
         }
     });
 
