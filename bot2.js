@@ -10,8 +10,8 @@ var creditnumber = Number
 var code = Number
 
 creditnumber = 1111
-code = 0000
-
+code = 0000;;
+;
 
 
 client.on("ready", () => {
