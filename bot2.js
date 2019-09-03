@@ -5,11 +5,8 @@ const client3 = new Discord.Client();
 console.log("Scrpit By Shadow");
 const myid = ['524218118462242816'];
 const prefix = ['!'];
-
-var creditnumber = Number
-creditnumber = "1111" ;
-var code = Number
-code = "0000" ;
+const creditnumber = "1111" ;
+const code = "0000" ;
 
 
 
@@ -61,7 +58,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if(message.content === 'creditme'){
-        message.channel.send("#credit" + "<@" + myid + ">" + Number)
+        message.channel.send("#credit" + "<@" + myid + ">" + creditnumber)
         message.channel.send(code)
     }
 });
@@ -107,7 +104,7 @@ client2.on('message', message => {
 
 client2.on('message', message => {
     if(message.content === 'creditme'){
-        message.channel.send("#credit" + "<@" + myid + ">" + Number)
+        message.channel.send("#credit" + "<@" + myid + ">" + creditnumber)
         message.channel.send(code)
     }
 });
@@ -152,7 +149,7 @@ client3.on("ready", () => {
 
     client3.on('message', message => {
         if(message.content === 'creditme'){
-            message.channel.send("#credit" + "<@" + myid + ">" + Number)
+            message.channel.send("#credit" + "<@" + myid + ">" + creditnumber)
             message.channel.send(code)
         }
     });
